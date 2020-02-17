@@ -1,13 +1,13 @@
 class Ytop < Formula
   desc "A TUI system monitor written in Rust"
   homepage "https://github.com/cjbassi/ytop"
-  version "0.5.0"
-  url "https://github.com/cjbassi/ytop/releases/download/0.5.0/ytop-0.5.0-x86_64-apple-darwin.tar.gz"
-  sha256 "e533a4f7d65734666e1d1d41f4c07e607b83d2381dad583fbda3d20dfd54530d"
+  version "0.5.1"
+  url "https://github.com/cjbassi/ytop/releases/download/0.5.1/ytop-0.5.1-x86_64-apple-darwin.tar.gz"
+  sha256 "49aaca58f10359c1e62d3717d3c985e7a6435a2224b8b5c5e0d8ccb6e6d71cb6"
 
   if OS.linux?
-    url "https://github.com/cjbassi/ytop/releases/download/0.5.0/ytop-0.5.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "8d95ab6b1a4b13e9fab0ee3e5eaa4c24a0cd9c823950f4481b679f843e29c660"
+    url "https://github.com/cjbassi/ytop/releases/download/0.5.1/ytop-0.5.1-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "c133958e3832c98d74e4995f2017fbd560792c42a532ccbc60273cc390904077"
   end
 
   def install
